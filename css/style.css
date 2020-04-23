@@ -1,0 +1,102 @@
+*{
+	/*//PEGAR TODO Y CREAR DIVISION*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+ }
+
+ h3{
+ 		 /*//TIPO DE LETRA*/
+ 	font-family: 'Arial';
+ 		 /*//TAMAÑO*/
+ 	font-size: 25px;
+ 		 /*//ESPACIO ENTRE LAS LETRAS*/
+ 	letter-spacing: 1px;
+ 		 /*//ANCHURA*/
+ 	width: 100%;
+ 		 /*//FONDO DE LETRAS*/
+ 	background: #2980b9;
+ 	 	 /*//FONDO DE ANCHO DE FONDO*/
+ 	padding: 15px;
+ 	 		 /*//FONDO DE LETRAS*/
+ 	color: #FFF; 
+ 	 		 /*//CENTRALIZAR LETRAS*/
+ 	 text-align: center;
+ 			 /*//CONVERTIR EN MAYUSCU LETRAS*/
+ 	 text-transform: uppercase;
+
+ }
+
+ #container 
+ {		
+ 	/*//FONDO DE PANTALLA*/
+ 	background: #154360;
+ 	/*//ANCHURA*/
+ 	width: 100%;
+ 	/*//ALTURA*/
+	 height: 100vh;
+	 /*//display flex*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	 /*//centralizar*/
+	 justify-content: center;
+	 /*//alinear*/
+	 align-items: center;
+
+ }
+	 /*//ALINAR Y CENTRALIZAR FORMULARIO*/
+  	#container form{
+		  
+		  background: #fff;
+		  width:400px;
+		  padding: 10px;
+
+		
+	  }
+	 /*//ALINAR Y CENTRALIZAR IMAGEN*/
+	   	#container form img{
+
+	   		margin: 15px auto;
+	   		text-align: center;
+	   		display: block;
+
+	   	}
+
+
+	/*//ALINAR Y CENTRALIZAR input y botones*/
+	   	#container form input{
+
+	   		width: 90%;
+	   		padding: 5px;
+	   		font-size:16pt;
+	   		display: block;
+	   		margin:25px auto;
+	   		border-radius: 5px;
+	   		border: 1px solid #85929e;
+	   		text-align: center;
+
+	   	}
+
+	   	#container form input[type="submit"]{
+
+	   		background: #36CA02;
+	   		padding: 10px;
+	   		color:#fff;
+	   		letter-spacing: 1px;
+	   		border: 0;
+	   		cursor: pointer;
+
+	   	}
+	   	.alert{
+
+	   		font-family: 'arial';
+	   		font-size: 16px;
+	   		text-align: center;
+	   		
+
+
+	   	}
